@@ -1,0 +1,14 @@
+**dnsmasq.conf
+
+**
+
+bogus-priv
+domain-needed
+no-resolv
+server=8.8.8.8
+server=8.8.4.4
+interface=en0	
+listen-address=127.0.0.1
+cache-size=10000
+addn-hosts=/etc/pihole/gravity.list
+host-record=Carters-Mac-mini.local,127.0.0.1,::1
